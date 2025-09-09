@@ -1,9 +1,0 @@
-python-dotenv
-pandas
-numpy
-pymongo[srv]>=4.0
-certifi
-scikit-learn
-dill
-pyaml
-##-e .
