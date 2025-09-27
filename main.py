@@ -46,7 +46,7 @@ if __name__ == "__main__":
         logging.info("Data Transformation Completed")
         print(datatransformationartifact)
 
-        logging.info("Model Training sstared")
+        logging.info("Model Training stared")
         model_trainer_config=ModelTrainerConfig(trainingpipelineconfig)
         model_trainer=ModelTrainer(model_trainer_config=model_trainer_config,data_transformation_artifact=datatransformationartifact)
         model_trainer_artifact=model_trainer.initiate_model_trainer()

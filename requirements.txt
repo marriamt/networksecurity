@@ -6,4 +6,8 @@ certifi
 scikit-learn
 dill
 pyaml
+dagshub
+fastapi
+uvicorn
+
 ##-e .
